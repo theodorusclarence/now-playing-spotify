@@ -1,5 +1,5 @@
-const title = 'Next.js Tailwind Starter';
-const description = 'A template for Next.js and Tailwindcss by Theodorus Clarence';
+const title = 'Sporify Now Playing with Next.js';
+const description = 'A spotify API using Next.js';
 
 const SEO = {
     title,
