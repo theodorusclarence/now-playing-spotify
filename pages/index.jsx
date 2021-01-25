@@ -3,7 +3,7 @@ import useSWR from 'swr';
 import { SiSpotify } from 'react-icons/si';
 
 export default function Home() {
-    const fetcher = fetch('/api/spotify').then((res) => res.json());
+    const fetcher = (url) => fetch(url).then((r) => r.json());
     const { data } = useSWR('/api/spotify', fetcher);
     return (
         <>
