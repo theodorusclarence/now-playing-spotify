@@ -66,15 +66,11 @@ export default function Home() {
                             className='relative flex items-center p-5 mx-auto space-x-4 transition-shadow border rounded-md hover:shadow-md w-72'
                         >
                             <div className='w-16'>
-                                {data?.isPlaying ? (
-                                    <img
-                                        className='w-16 shadow-sm'
-                                        src='https://i.scdn.co/image/ab67616d0000b273e1cc9c6608ce7a358fcd340c'
-                                        alt='Dogrel'
-                                    />
-                                ) : (
-                                    <SiSpotify size={64} color={'#1ED760'} />
-                                )}
+                                <img
+                                    className='w-16 shadow-sm'
+                                    src='https://i.scdn.co/image/ab67616d0000b273e1cc9c6608ce7a358fcd340c'
+                                    alt='Dogrel'
+                                />
                             </div>
 
                             <div className='flex-1'>
