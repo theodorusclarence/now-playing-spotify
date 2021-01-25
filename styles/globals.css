@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@tailwind base;
+
+/* Write your own custom base styles here */
+h1 {
+    @apply text-3xl font-bold md:text-5xl font-primary;
+}
+
+h2 {
+    @apply text-2xl font-bold md:text-4xl font-primary;
+}
+
+h3 {
+    @apply text-xl font-bold md:text-3xl font-primary;
+}
+
+h4 {
+    @apply text-lg font-bold font-primary;
+}
+
+body {
+    @apply font-primary;
+}
+
+.layout {
+    /* 750px */
+    max-width: 43.75rem;
+    @apply w-11/12 mx-auto;
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+.btn-blue {
+    @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
