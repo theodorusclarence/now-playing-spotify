@@ -1,4 +1,4 @@
-const title = 'Sporify Now Playing with Next.js';
+const title = 'Spotify Now Playing with Next.js';
 const description = 'A spotify API using Next.js';
 
 const SEO = {
